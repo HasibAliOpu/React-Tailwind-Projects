@@ -4,7 +4,7 @@ import Person from "../../images/1st-page/person.png";
 const Home = () => {
   return (
     <div>
-      <div>
+      <section>
         <section>
           <img src={Banner} alt="" />
         </section>
@@ -35,7 +35,50 @@ const Home = () => {
             <img src={Person} className="rounded-xl" alt="" />
           </div>
         </div>
-      </div>
+      </section>
+      <section>
+        <div className="grid md:grid-cols-3 ">
+          <div className="bg-stone-200 px-10 py-16">
+            <div className="flex justify-around mb-6">
+              <h1 className="text-6xl  text-sky-400">01</h1>
+              <p className="text-2xl font-medium">
+                Fashion And <br />
+                Luxury
+              </p>
+            </div>
+            <p>
+              At the core of every project that will be released by Venturastic
+              in fashion and luxury, there will be quintessentially a strong
+              commitment to unmatched creativity and quality, aligned with the
+              changing needs of the international market.
+            </p>
+          </div>
+          <div className="px-10 py-16">
+            <div className="flex justify-around mb-6">
+              <h1 className="text-6xl  text-sky-400">02</h1>
+              <p className="text-2xl font-medium">Media and Entertainment</p>
+            </div>
+            <p>
+              Forward-looking Media and entertainment business, whose mission is
+              to enable unique investment opportunities, by allowing investors
+              to express their aspirations and aesthetics with the highest level
+              of quality and refinement.
+            </p>
+          </div>
+          <div className="bg-stone-200 px-10 py-16">
+            <div className="flex justify-around mb-6">
+              <h1 className="text-6xl  text-sky-400">03</h1>
+              <p className="text-2xl font-medium">Technology</p>
+            </div>
+            <p>
+              Technology growth has been led by the rapid advancement and
+              proliferation of Artificial intelligence, cloud, and machine
+              learning, virtually impacting every business and consumer in its
+              path.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
