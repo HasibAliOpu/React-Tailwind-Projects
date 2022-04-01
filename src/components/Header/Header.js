@@ -26,19 +26,21 @@ const Header = () => {
               <CustomLink to="/">HOME</CustomLink>
             </li>
             <li>
-              <CustomLink to="/">CORPORATE GOVERNANCE</CustomLink>
+              <CustomLink to="/corporate-governance">
+                CORPORATE GOVERNANCE
+              </CustomLink>
             </li>
             <li>
-              <CustomLink to="/">WHAT WE WOULD DO</CustomLink>
+              <CustomLink to="/what-we-would-do">WHAT WE WOULD DO</CustomLink>
             </li>
             <li>
-              <CustomLink to="/">FIRST PROJECT</CustomLink>
+              <CustomLink to="/first-project">FIRST PROJECT</CustomLink>
             </li>
             <li>
-              <CustomLink to="/">ABOUT US</CustomLink>
+              <CustomLink to="/about-us">ABOUT US</CustomLink>
             </li>
             <li>
-              <CustomLink to="/">OUR TEAM</CustomLink>
+              <CustomLink to="/our-team">OUR TEAM</CustomLink>
             </li>
           </ul>
         </div>
